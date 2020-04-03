@@ -1,0 +1,70 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-left:20px;
+    margin-left:0px;
+}
+.navbar-brand  h1 {
+    font-family: 'Lora', serif;
+    color: red;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+#nav-list {
+    margin-top: 10px;
+  }
+#nav-list a {
+    color: black;
+  }
+#nav-list a:hover {
+    background: #E7E7E7;
+  }
+#main-content {
+  width: 90%;
+  height: 1000px;
+  
+} 
+#tall-sectoin h2 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+   font-size: 3em;
+}
+#tall-section p {
+    position: relative;
+    padding: 30px;
+    background-color: #f6b319;
+    margin-top: 30px;
+    color: #61122f
+   
+}
+#tall-section .menu-item  {
+    position: absolute;
+    top:0;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    
+}
+
+@media (max-width: 768px) { 
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+}
